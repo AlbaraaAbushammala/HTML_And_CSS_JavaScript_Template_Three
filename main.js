@@ -1,5 +1,4 @@
 
-
 let countDownDate = new Date("Dec 10, 2022 23:59:59").getTime();
 // console.log(countDownDate);
 
@@ -17,9 +16,6 @@ let counter = setInterval(() => {
     
     let seconds = Math.floor((dateDiff % (1000 * 60 )) / 1000);
     document.querySelector(".seconds").innerHTML = seconds < 10 ? `0${seconds}` : seconds; 
-
-
-
 
 
 }, 1000);
